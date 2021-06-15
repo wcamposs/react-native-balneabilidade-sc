@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "balneabilidadeSC",
+    "name": "balneabilidade SC",
     "slug": "balneabilidadeSC",
     "version": "1.0.0",
+    "sdkVersion": "41.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
