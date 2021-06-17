@@ -1,6 +1,6 @@
 // libraries
 import React, { useEffect, useState } from 'react';
-import { Dimensions, SafeAreaView, StyleSheet } from 'react-native';
+import { Dimensions, Modal, SafeAreaView, StyleSheet } from 'react-native';
 import MapView, { Marker } from 'react-native-maps';
 
 // services
@@ -25,8 +25,8 @@ function HomeScreen() {
         <SafeAreaView style={styles.container}>
             <MapView
                 style={styles.mapContainer(width, height)}
-                minZoomLevel={7} // 7
                 maxZoomLevel={12} //16
+                minZoomLevel={7} // 7
                 mapType='standard'
 
                 initialRegion={{
